@@ -1,0 +1,13 @@
+npm init -y
+
+npm i express
+
+npm i --save-dev nodemon => to restart the server
+
+  "scripts": {
+    "devstart": "nodemon server.js"  
+  }, on package.json
+
+npm run deveStart
+
+npm i ejs ==> to render the  view
